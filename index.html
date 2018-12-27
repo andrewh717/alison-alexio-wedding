@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<style>
+    #yes_label {
+        margin-right: 25px;
+    }
+
+</style>
+
+<body>
+    <div class="container center-align">
+        <div class="row">
+            <h1>RSVP</h1>
+        </div>
+        <div class="row">
+            <form class="col s12" action="#">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2>Coming?</h2>
+                    <label for="yes_box">
+                        <input id="yes_box" name="coming_response" type="radio" value="yes">
+                        <span id="yes_label">Yes</span>
+                    </label>
+                    <label for="no_box">
+                        <input id="no_box" name="coming_response" type="radio" value="no">
+                        <span id="no_label">No</span>
+                    </label>                    
+                </div>
+                <div class="row">
+                    <input class="btn" type="submit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
