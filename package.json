@@ -1,0 +1,24 @@
+{
+  "name": "alison-alexio-wedding",
+  "version": "1.0.0",
+  "description": "Alexio was supposed to make this, so hopefully my shitty quick job will get him to make it better :D",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewh717/alison-alexio-wedding.git"
+  },
+  "author": "Andrew Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewh717/alison-alexio-wedding/issues"
+  },
+  "homepage": "https://github.com/andrewh717/alison-alexio-wedding#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1"
+  }
+}

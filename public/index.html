@@ -24,25 +24,25 @@
             <h1>RSVP</h1>
         </div>
         <div class="row">
-            <form class="col s12" action="#">
+            <form class="col s12" method="post" action="/rsvp">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
+                        <input name="firstName" id="first_name" type="text" class="validate" required>
                         <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
+                        <input name="lastName" id="last_name" type="text" class="validate" required>
                         <label for="last_name">Last Name</label>
                     </div>
                 </div>
                 <div class="row">
                     <h2>Coming?</h2>
                     <label for="yes_box">
-                        <input id="yes_box" name="coming_response" type="radio" value="yes">
+                        <input id="yes_box" name="isComing" type="radio" value="yes" required>
                         <span id="yes_label">Yes</span>
                     </label>
                     <label for="no_box">
-                        <input id="no_box" name="coming_response" type="radio" value="no">
+                        <input id="no_box" name="isComing" type="radio" value="no" required>
                         <span id="no_label">No</span>
                     </label>                    
                 </div>
